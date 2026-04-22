@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soporte – AB Soccer Play</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+    header {
+      background: #1e293b;
+      border-bottom: 1px solid #334155;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo {
+      width: 44px; height: 44px;
+      background: #22c55e;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+    }
+    header h1 { font-size: 20px; font-weight: 800; color: #f8fafc; }
+    header p  { font-size: 13px; color: #94a3b8; }
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+    .badge {
+      display: inline-block;
+      background: #22c55e22;
+      color: #22c55e;
+      border: 1px solid #22c55e44;
+      border-radius: 999px;
+      padding: 4px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 900;
+      color: #f8fafc;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: #64748b;
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+    .contact-card {
+      background: linear-gradient(135deg, #22c55e18, #16a34a10);
+      border: 1px solid #22c55e44;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .contact-icon {
+      width: 56px; height: 56px;
+      background: #22c55e;
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+      flex-shrink: 0;
+    }
+    .contact-info h3 { font-size: 18px; font-weight: 800; color: #f8fafc; margin-bottom: 4px; }
+    .contact-info p  { font-size: 14px; color: #94a3b8; margin-bottom: 12px; }
+    .btn-contact {
+      display: inline-block;
+      background: #22c55e;
+      color: #000;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 10px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    .btn-contact:hover { background: #16a34a; color: #fff; }
+    h3.section-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 16px;
+    }
+    .faq-item {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 12px;
+    }
+    .faq-item h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 8px;
+    }
+    .faq-item p {
+      font-size: 14px;
+      color: #94a3b8;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .feature-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+    }
+    .feature-icon { font-size: 28px; margin-bottom: 10px; }
+    .feature-card h4 { font-size: 14px; font-weight: 700; color: #f8fafc; margin-bottom: 4px; }
+    .feature-card p  { font-size: 12px; color: #64748b; }
+    a { color: #22c55e; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: #475569;
+      font-size: 13px;
+      border-top: 1px solid #1e293b;
+    }
+    footer a { color: #64748b; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">⚽</div>
+  <div>
+    <h1>AB Soccer Play</h1>
+    <p>Gestión de complejos deportivos</p>
+  </div>
+</header>
+
+<main>
+  <div class="badge">Centro de Soporte</div>
+  <h2>¿Cómo podemos ayudarte?</h2>
+  <p class="subtitle">
+    AB Soccer Play es una aplicación de gestión privada para complejos de canchas sintéticas.
+    Nuestro equipo está disponible para ayudarte con cualquier consulta.
+  </p>
+
+  <!-- Contacto principal -->
+  <div class="contact-card">
+    <div class="contact-icon">✉️</div>
+    <div class="contact-info">
+      <h3>Contactar al equipo de soporte</h3>
+      <p>Respuesta en menos de 24 horas hábiles. Atención en español.</p>
+      <a href="mailto:Apper2025@icloud.com" class="btn-contact">
+        Enviar correo de soporte
+      </a>
+    </div>
+  </div>
+
+  <!-- Funcionalidades -->
+  <h3 class="section-title">¿Qué puedes hacer con AB Soccer Play?</h3>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">📅</div>
+      <h4>Reservas</h4>
+      <p>Gestiona reservas de canchas con horario y cliente</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">💰</div>
+      <h4>Caja y Cobros</h4>
+      <p>Registra pagos en efectivo y controla las deudas</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">👥</div>
+      <h4>Clientes</h4>
+      <p>Base de datos de clientes con historial de visitas</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📦</div>
+      <h4>Inventario</h4>
+      <p>Control de productos y materiales del negocio</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🏆</div>
+      <h4>Torneos</h4>
+      <p>Organiza torneos y lleva el registro de equipos</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📊</div>
+      <h4>Reportes</h4>
+      <p>Estadísticas e informes mensuales del negocio</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <h3 class="section-title">Preguntas frecuentes</h3>
+
+  <div class="faq-item">
+    <h4>¿Cómo obtengo acceso a la aplicación?</h4>
+    <p>
+      AB Soccer Play es una aplicación de uso privado. El acceso es proporcionado
+      exclusivamente por el desarrollador o administrador del sistema. No es posible
+      registrarse de forma independiente. Contacta a tu proveedor de servicio para
+      recibir tus credenciales de acceso.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Olvidé mi contraseña, ¿qué hago?</h4>
+    <p>
+      Escribe a <a href="mailto:Apper2025@icloud.com">Apper2025@icloud.com</a>
+      con el asunto "Recuperación de contraseña" y el correo de tu cuenta.
+      Te asistiremos en el restablecimiento en menos de 24 horas.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿La aplicación procesa pagos en línea?</h4>
+    <p>
+      No. AB Soccer Play <strong>no procesa ningún pago digital ni transacción en línea</strong>.
+      Los módulos de "Caja" y "Cobros" son exclusivamente un registro contable de
+      pagos en efectivo que se realizan físicamente en el complejo deportivo.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿En qué dispositivos funciona?</h4>
+    <p>
+      AB Soccer Play está disponible para iPhone (iOS 16 o superior). Próximamente
+      disponible para Android.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Mis datos están seguros?</h4>
+    <p>
+      Sí. Toda la información está almacenada en servidores seguros con cifrado
+      SSL/TLS. Consulta nuestra
+      <a href="./privacy.html">Política de Privacidad</a>
+      para más detalles.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Cómo agrego encargados a mi complejo?</h4>
+    <p>
+      El administrador (dueño) puede solicitar la creación de cuentas para sus
+      encargados escribiendo a soporte. Una vez creadas, los encargados podrán
+      iniciar sesión y gestionar su complejo asignado.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h4>¿Puedo solicitar la eliminación de mis datos?</h4>
+    <p>
+      Sí. Escribe a <a href="mailto:Apper2025@icloud.com">Apper2025@icloud.com</a>
+      con el asunto "Solicitud de eliminación de datos" y procesaremos tu solicitud
+      en un plazo máximo de 30 días hábiles.
+    </p>
+  </div>
+</main>
+
+<footer>
+  © 2026 AB Soccer Play. Todos los derechos reservados. ·
+  <a href="./privacy.html">Política de Privacidad</a>
+</footer>
+
+</body>
+</html>
